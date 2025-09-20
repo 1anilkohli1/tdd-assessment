@@ -6,5 +6,4 @@ RSpec.describe StringCalculator do
       expect(StringCalculator.add('')).to eq(0)
     end
   end
-endgit add spec/string_calculator_spec.rb
-git commit -m "test: add spec for empty string (red)"
+end
