@@ -1,5 +1,5 @@
 class StringCalculator
   def self.add(input)
-    raise NotImplementedError
+    return 0 if input.nil? || input == ''
   end
 end
